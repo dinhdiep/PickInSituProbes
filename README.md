@@ -7,10 +7,12 @@ bowtie1, R packages (dplyr, stringr, tidyr), MELTING5.1
 Need to download all these reference data files and put them into a 'Data' folder (add link to download here).
 
 Multiple fasta file and its index (.fai) file:
+
 *GRCh38_latest_genomic.fna
 *GRCh38_latest_genomic.fna.fai
 
 Bowtie1 index files:
+
 *GRCh38.1.ebwt
 *GRCh38.2.ebwt
 *GRCh38.3.ebwt
@@ -19,6 +21,7 @@ Bowtie1 index files:
 *GRCh38.rev.2.ebwt
 
 Files for genes2targets.r:
+
 *ncbi_refseq_GRCh38_cds.gtf.gz
 *ncbi_refseq_GRCh38.gtf
 *ref_conversion_table
