@@ -8,24 +8,24 @@ Need to download all these reference data files and put them into a 'Data' folde
 
 Multiple fasta file and its index (.fai) file:
 
-*GRCh38_latest_genomic.fna
-*GRCh38_latest_genomic.fna.fai
+* GRCh38_latest_genomic.fna
+* GRCh38_latest_genomic.fna.fai
 
 Bowtie1 index files:
 
-*GRCh38.1.ebwt
-*GRCh38.2.ebwt
-*GRCh38.3.ebwt
-*GRCh38.4.ebwt
-*GRCh38.rev.1.ebwt
-*GRCh38.rev.2.ebwt
+* GRCh38.1.ebwt
+* GRCh38.2.ebwt
+* GRCh38.3.ebwt
+* GRCh38.4.ebwt
+* GRCh38.rev.1.ebwt
+* GRCh38.rev.2.ebwt
 
 Files for genes2targets.r:
 
-*ncbi_refseq_GRCh38_cds.gtf.gz
-*ncbi_refseq_GRCh38.gtf
-*ref_conversion_table
-*rsem_GRCh38.p2.gtf.gz
+* ncbi_refseq_GRCh38_cds.gtf.gz
+* ncbi_refseq_GRCh38.gtf
+* ref_conversion_table
+* rsem_GRCh38.p2.gtf.gz
 
 # USAGE:
 
@@ -51,6 +51,6 @@ The first argument to this is the multiple fasta file (.fna or .fa) for the refe
 $ ./src/PickInSituProbes.pl Data/GRCh38_latest_genomic.fna MALAT1 params_example/our_optimal_params.pl < example.txt
 ```
 
-The outputs from this that you'll want is the MALAT1.output (*job name*.output) file. The other files are for troubleshooting and evaluating the effects of different parameters on the outputs.
+The outputs from this that you'll want are in the MALAT1.output (*job name*.output) file. The other files are for troubleshooting and evaluating the effects of different parameters on the outputs.
 
 
